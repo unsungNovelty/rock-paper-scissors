@@ -43,7 +43,7 @@ h1 {
 .item {
     display: grid;
     font-size: 1.5rem;
-    border: solid black;
+    box-shadow: 0 0 4px 0 ;
     place-items: center;
     border-radius: 0.5rem;
     height: 5rem;
@@ -51,7 +51,8 @@ h1 {
 }
 
 .item:hover {
-    background-color: aqua;
+    background-color: #3B82F6;
+    color: #EFF6FF;
 }
 
 #start-button {
